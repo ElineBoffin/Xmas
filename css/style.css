@@ -228,7 +228,7 @@ input:checked+.slider:before {
   color: #D72638;
   font-size: 60px;
   text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
-  -webkit-text-stroke: 2px #1C450D;
+  /*-webkit-text-stroke: 2px #1C450D;*/
 }
 
 #kerstspreuk {
