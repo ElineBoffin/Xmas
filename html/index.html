@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
-  <title>Document</title>
+  <title>Xmas Countdown</title>
 </head>
 <body>
   <h1 class="xmas">Christmas Countdown</h1>
 
   <div id="clockdiv">
     <div class="inner">
-      <span class="days"></span>
-      <div class="smalltext">Days</div>
+      <span id="days" class="days"></span>
+      <p class="smalltext">Days</p>
     </div>
     <div class="inner">
-      <span class="hours"></span>
-      <div class="smalltext">Hours</div>
+      <span id="hours" class="hours"></span>
+      <p class="smalltext">Hours</p>
     </div>
     <div class="inner">
-      <span class="minutes"></span>
-      <div class="smalltext">Minutes</div>
+      <span id="minutes" class="minutes"></span>
+      <p class="smalltext">Minutes</p>
     </div>
     <div class="inner">
-      <span class="seconds"></span>
-      <div class="smalltext">Seconds</div>
+      <span id="seconds" class="seconds"></span>
+      <p class="smalltext">Seconds</p>
     </div>
   </div>
+
   <div class="container">
     <h1 class="title">Kerstspreuk van de Dag</h1>
     <p id="kerstspreuk"></p>
   </div>
+
+  <h4>Activate Christmas Now!</h4>
+  <div class="content">
+    <label class="switch">
+      <input type="checkbox" id="toggleSwitch" onchange="toggleCountdown()">
+      <span class="slider round"></span>
+    </label>
+  </div>
 </body>
 <script src="../js/code.js"></script>
-
 </html>
