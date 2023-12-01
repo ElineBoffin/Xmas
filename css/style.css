@@ -1,5 +1,5 @@
 body {
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous'; /*cursive*/
   text-align: center;
   background: #015344;
   background-image: url('https://i.imgur.com/BiSmXaq.png'), url('https://i.imgur.com/XHuy0NJ.png'), url('https://i.imgur.com/okpRxJU.png');
