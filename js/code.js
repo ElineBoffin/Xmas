@@ -40,19 +40,23 @@ function activateXmasNow() {
 function toggleCountdown() {
   var switchButton = document.getElementById("toggleSwitch");
   if (switchButton.checked) {
+    let activate = document.getElementById("activate");
+    if(activate.innerHTML === "Activate Christmas Now!") {
+      activate.innerHTML = "Proficiat je hebt kerst gehackt!"
+    }
     // If the switch is checked, start the countdown
     activateXmasNow();
+    
   } else {
+    activate.innerHTML = "Activate Christmas Now!";
     // If the switch is unchecked, stop the countdown and reset to the original Xmas countdown
     clearInterval(x);
     countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
     startCountdown();
   }
 }
-
 // Start the initial countdown when the page loads
 startCountdown();
-
 
 
 //SPREUKEN

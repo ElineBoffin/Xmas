@@ -141,6 +141,7 @@ h4 {
   display: inline-block;
   width: 120px;
   height: 68px;
+  /*margin-top: 50px;*/
 }
 
 .switch input {
@@ -238,3 +239,35 @@ input:checked+.slider:before {
   /*color: #333;*/
   /*mix-blend-mode: difference;*/
 }
+
+
+/*Jump text*/
+/*.box{
+  position: absolute;
+  top: 0; left: 0;
+  right: 0;
+  height: 100vh; width: 100vw;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.box h4{
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 0.5s ease infinite alternate;
+}
+@keyframes bounce{
+  100%{
+    top: -10px;
+  }
+}
+.box h4:nth-child(2){
+  animation-delay:0.1s;
+}
+.box h4:nth-child(3){
+  animation-delay:0.2s;
+}
+.box h4:nth-child(4){
+  animation-delay:0.3s;
+}*/
