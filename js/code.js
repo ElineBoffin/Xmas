@@ -1,4 +1,4 @@
-var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
+var countDownDate = new Date("Dec 25, 2024 00:00:00").getTime();
 var x;
 
 function startCountdown() {
@@ -51,7 +51,7 @@ function toggleCountdown() {
     activate.innerHTML = "Activate Christmas Now!";
     // If the switch is unchecked, stop the countdown and reset to the original Xmas countdown
     clearInterval(x);
-    countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
+    countDownDate = new Date("Dec 25, 2024 00:00:00").getTime();
     startCountdown();
   }
 }
